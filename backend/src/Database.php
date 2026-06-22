@@ -16,8 +16,8 @@ final class Database
         }
 
         // HARDCODED PUBLIC BYPASS (Replaces dynamic environment variables)
-        $host    = 'mysql.railway.internal';     // e.g., 'containers-us-west-123.railway.app' or 'mysql.railway.app'
-        $port    = '3306';     // e.g., '5432' or '6123' (DO NOT USE 3306)
+        $host    = 'reseau.proxy.rlwy.net';     // e.g., 'containers-us-west-123.railway.app' or 'mysql.railway.app'
+        $port    = '16644';     // e.g., '5432' or '6123' (DO NOT USE 3306)
         $dbname  = 'railway';                       // Keep as 'railway' unless you renamed it
         $charset = 'utf8mb4';
         $user    = 'root';
